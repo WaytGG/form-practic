@@ -8,38 +8,39 @@
     <title>Form</title>
   </head>
   <body>
-    <header class="header">
-      <h1 class="heading">
-        <hr class="left-hr" />
-        Register
-        <hr class="right-hr" />
-      </h1>
-      <h3 class="sub-heading">
-        Create your account.It's free and only takes a minute.
-      </h3>
-    </header>
-    <form class="form">
-      <fieldset class="first">
-        <input class="first-name" type="text" name="first-name" placeholder="First Name" autofocus required />
-        <input class="last-name" type="text" name="last-name" placeholder="Last Name" required />
-      </fieldset>
-      <fieldset>
-        <input class="email" type="email" name="email" placeholder="Email" required />
-      </fieldset>
-      <fieldset>
-        <input class="pass" type="password" name="pass" placeholder="Password" required />
-      </fieldset>
-      <fieldset>
-        <input class="confirm-pass" type="password" name="confirm-pass" placeholder="Confirm Password" required />
-      </fieldset>
-      <label class="label-checkbox">
-        <input class="input-checkbox" type="checkbox" name="agree" required />
-        I accept the <a class="agree" href="#">Terms of Use</a> &
-        <a class="agree" href="#">Privacy Policy</a>.
-      </label>
-      <fieldset>
-        <button class="btn" type="submit">Register Now</button>
-      </fieldset>
-    </form>
+    <div class="wrapper">
+      <header class="header">
+        <h1 class="heading">
+          <hr class="left-hr" />
+          Register
+          <hr class="right-hr" />
+        </h1>
+        <h3 class="sub-heading">
+          Create your account.It's free and only takes a minute.
+        </h3>
+      </header>
+      <form class="form">
+        <fieldset class="first">
+          <input class="first-name" type="text" name="first-name" placeholder="First Name" autofocus required /><input class="last-name" type="text" name="last-name" placeholder="Last Name" required />
+        </fieldset>
+        <fieldset>
+          <input class="email" type="email" name="email" placeholder="Email" required />
+        </fieldset>
+        <fieldset>
+          <input class="pass" type="password" name="pass" placeholder="Password" required />
+        </fieldset>
+        <fieldset>
+          <input class="confirm-pass" type="password" name="confirm-pass" placeholder="Confirm Password" required />
+        </fieldset>
+        <label class="label-checkbox">
+          <input class="input-checkbox" type="checkbox" name="agree" required />
+          I accept the <a class="agree" href="#">Terms of Use</a> &
+          <a class="agree" href="#">Privacy Policy</a>.
+        </label>
+        <fieldset>
+          <button class="btn" type="submit">Register Now</button>
+        </fieldset>
+      </form>
+    </div>
   </body>
 </html>
