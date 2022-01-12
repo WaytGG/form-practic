@@ -9,9 +9,17 @@ body {
   width: 100vw;
   height: 100vh;
   text-align: center;
-  padding: 0 750px 0 750px;
+  background-color: rgb(172, 160, 160);
+}
+
+.wrapper {
+  display: inline-block;
+  text-align: center;
+  width: 420px;
   color: gray;
-  background-color: rgb(235, 226, 226);
+  background-color: rgb(224, 210, 210);
+  box-shadow: 0 0px 12px 12px rgba(55, 55, 58, 0.2);
+  margin-top:  150px;
 }
 
 .header {
@@ -21,6 +29,7 @@ body {
 
 .heading {
   position: relative;
+  width: 100%;
   padding: 15px;
   color: rgb(92, 81, 81);
   font-size: 28px;
@@ -36,21 +45,23 @@ body {
 .left-hr {
   position: absolute;
   display: inline-block;
-  width: 150px;
-  left: 0px;
+  width: 130px;
+  left: 20px;
   top: 30px;
 }
 
 .right-hr {
   position: absolute;
   display: inline-block;
-  width: 140px;
-  right:  10px;
+  width: 127px;
+  right:  25px;
   top: 30px;
 }
 
 .form {
   display: inline-block;
+  border-radius: 0 0 5px 5px;
+  padding: 20px;
 }
 
 fieldset {
@@ -59,13 +70,13 @@ fieldset {
 
 .first-name {
   display: inline-block;
-  width: 202px;
+  width: 48%;
 }
 
 .last-name {
   display: inline-block;
-  width: 202px;
-  margin-left: 10px;
+  width: 48%;
+  margin-left: 15px;
 }
 
 input {
@@ -84,13 +95,13 @@ input {
 }
 
 .agree {
-  color: rgb(105, 101, 101);
+  color: rgb(88, 79, 79);
   text-decoration: none;
 }
 
 .btn {
   display: inline-block;
-  padding: 10px 145px;
+  padding: 15px 125px;
   color: white;
   background-color: #50A851;
   font-size: 20px;
